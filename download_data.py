@@ -105,6 +105,7 @@ def download_census_data(city):
 
 def download_tiles_plus_geojson(city):
 
+	# load manual overrides
 
 	custom_dates = {}
 
@@ -118,6 +119,7 @@ def download_tiles_plus_geojson(city):
 		custom_colrows = json.loads(ofile.read())
 	ofile.close()
 
+	# load preapproved "good" images
 
 	good_imgs = []
 	good_imgs_dict = {}
@@ -129,17 +131,19 @@ def download_tiles_plus_geojson(city):
 	for item in good_imgs:
 		good_imgs_dict[item['name']] =  item["image"]
 
+	# set where to put city data, where to get coordinates from
 	
 	cityDir = 'data/output/images/' + clean_path_name(city['state']) + "-" + clean_path_name(city['name'])
-
-
 	
 	coord_output_file = "data/boundaries-census/"+ city['name'].lower().replace(" ", "-") +".json"
 
 
+	# if coordinates are aren't preapproved, download them from OSM
+
 	# THESE THREE ARE PULLING INCORRECTLY FROM TIGER
 	osm_boundaries = ["louisville", "washington", "glendale"]
 
+	##### get osm data if needed
 	if city['name'].lower() in osm_boundaries:
 		coordinates = get_geom(city)
 
@@ -147,6 +151,7 @@ def download_tiles_plus_geojson(city):
 			ofile.write(json.dumps(coordinates))
 		ofile.close()
 
+	##### use tiger data geometry 
 	else:
 		with open(coord_output_file, 'r') as ofile:
 			coordinates = json.loads(ofile.read())
@@ -158,16 +163,19 @@ def download_tiles_plus_geojson(city):
 
 	print('downloading new data')
 
+	# get center of geography and the bounding box of it
 	centroid = get_center_coordinate(coordinates['coordinates'])[0]
 	bbox = get_center_coordinate(coordinates['coordinates'])[1]
 
 
+	# get the satellite column/row combinations if not manually overriden
 	if city['name'] not in custom_colrows:
 		centroid_colrows = get_landsat_colrows(centroid)
 	else:
 		centroid_colrows = [custom_colrows[city['name']]]
 
 
+	# set the initial query parameters for searching satellite
 	query_params = {
 	  "eo:cloud_cover": {
 	    "lt": 4
@@ -180,7 +188,7 @@ def download_tiles_plus_geojson(city):
 
 
 	
-
+	# update the parameters if there is manual override info, then perform search
 	if city['name'] in custom_dates:
 		if "LC80" in custom_dates[city['name']]:
 			api_base_url = "http://sat-api.developmentseed.org/collections/landsat-8-l1/items/"
@@ -226,18 +234,21 @@ def download_tiles_plus_geojson(city):
 		return False
 
 
-
+	# download the scenes that are manually set with filename containing "good"
 	if city['name'] in custom_dates:
 		for ind, scene in enumerate(scenes):
 			scene.download("B10", path=cityDir, filename='good' + str(ind))
 			print("manual scene downloaded")
 	else:
+		# if not manually set, filter scenes to ones we want
 		colrow_scenes = [x for x in scenes if in_colrows(x, centroid_colrows)]
 
 		summer_scenes = [x for x in colrow_scenes if summer_date(str(x.date))]
 
 
+		# start a counter of how many downloaded per colrow combination
 		all_colrows = {}
+		full_colrows_threshold = 2
 
 		for scene in summer_scenes:
 			colrow = scene['eo:column'] + "-" + scene['eo:row']
@@ -245,15 +256,23 @@ def download_tiles_plus_geojson(city):
 				all_colrows[colrow] = 0
 		
 
+		# start downloading non-manually set scenes
 		for scene in summer_scenes:
 			colrow = scene['eo:column'] + "-" + scene['eo:row']
 			export_name = colrow + "-" + str(scene.date)
-			if export_name in good_imgs_dict[clean_path_name(city['state']) + "-" + clean_path_name(city['name'])]:
+			### if the city is contained in good images already, only get the preapproved image
+			try:
+				if export_name in good_imgs_dict[clean_path_name(city['state']) + "-" + clean_path_name(city['name'])]:
+					scene.download("B10", path=cityDir, filename=colrow + "-" + str(scene.date))
+					print("non-manual scene downloaded")
+			### if the city is NOT contained in good images already, download until fill counter
+			except:
 				scene.download("B10", path=cityDir, filename=colrow + "-" + str(scene.date))
 				print("non-manual scene downloaded")
 
+
+			# add to the download counter oo each loop
 			all_colrows[colrow] = all_colrows[colrow] + 1 
-			full_colrows_threshold = 2
 			if full_colrows_check(all_colrows, full_colrows_threshold) == True:
 				break
 
@@ -280,7 +299,7 @@ def get_landsat_colrows(centroid):
 						"Connection": "keep-alive",
 						"Content-Length": "18",
 						"Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-						"Cookie": "PHPSESSID="+ phpsessid +"; _ga=GA1.2.1836831423.1561566866; _gid=GA1.2.1967535729.1561566866; _ga=GA1.3.1836831423.1561566866; _gid=GA1.3.1967535729.1561566866; _gat_ee=1; _gat_lta=1; _gat_GSA_ENOR0=1; _gat_GSA_ENOR1=1; _gat_GSA_ENOR2=1",
+						"Cookie": "PHPSESSID=" + phpsessid + "; _ga=GA1.2.1836831423.1561566866; _gid=GA1.2.1967535729.1561566866; _ga=GA1.3.1836831423.1561566866; _gid=GA1.3.1967535729.1561566866; _gat_ee=1; _gat_lta=1; _gat_GSA_ENOR0=1; _gat_GSA_ENOR1=1; _gat_GSA_ENOR2=1",
 						"Host": "earthexplorer.usgs.gov",
 						"Origin": "https://earthexplorer.usgs.gov",
 						"Referer": "https://earthexplorer.usgs.gov/",
