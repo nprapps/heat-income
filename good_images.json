@@ -1,0 +1,390 @@
+[
+  {
+    "name": "alaska-anchorage",
+    "image": "good1_B10.TIF"
+  },
+  {
+    "name": "arizona-chandler",
+    "image": "good0_B10.TIF"
+  },
+  {
+    "name": "arizona-gilbert",
+    "image": "good0_B10.TIF"
+  },
+  {
+    "name": "arizona-glendale",
+    "image": "good0_B10.TIF"
+  },
+  {
+    "name": "arizona-mesa",
+    "image": "036-037-2018-08-28_B10.TIF"
+  },
+  {
+    "name": "arizona-phoenix",
+    "image": "037-037-2018-07-02_B10.TIF"
+  },
+  {
+    "name": "arizona-scottsdale",
+    "image": "037-037-2018-07-02_B10.TIF"
+  },
+  {
+    "name": "arizona-tucson",
+    "image": "036-038-2018-06-25_B10.TIF"
+  },
+  {
+    "name": "california-anaheim",
+    "image": "041-036-2018-08-31_B10.TIF"
+  },
+  {
+    "name": "california-bakersfield",
+    "image": "042-035-2018-08-06_B10.TIF"
+  },
+  {
+    "name": "california-chula-vista",
+    "image": "040-037-2018-07-23_B10.TIF"
+  },
+  {
+    "name": "california-fremont",
+    "image": "good0_B10.TIF"
+  },
+  {
+    "name": "california-fresno",
+    "image": "042-035-2018-08-22_B10.TIF"
+  },
+  {
+    "name": "california-irvine",
+    "image": "good0_B10.TIF"
+  },
+  {
+    "name": "california-long-beach",
+    "image": "041-036-2018-08-31_B10.TIF"
+  },
+  {
+    "name": "california-los-angeles",
+    "image": "041-036-2018-08-31_B10.TIF"
+  },
+  {
+    "name": "california-oakland",
+    "image": "good0_B10.TIF"
+  },
+  {
+    "name": "california-riverside",
+    "image": "good1_B10.TIF"
+  },
+  {
+    "name": "california-sacramento",
+    "image": "044-033-2018-08-04_B10.TIF"
+  },
+  {
+    "name": "california-san-diego",
+    "image": "040-037-2018-07-23_B10.TIF"
+  },
+  {
+    "name": "california-san-francisco",
+    "image": "good0_B10.TIF"
+  },
+  {
+    "name": "california-san-jose",
+    "image": "good0_B10.TIF"
+  },
+  {
+    "name": "california-santa-ana",
+    "image": "041-036-2018-08-31_B10.TIF"
+  },
+  {
+    "name": "california-stockton",
+    "image": "good1_B10.TIF"
+  },
+  {
+    "name": "colorado-aurora",
+    "image": "LC08_L1TP_033032_20180807_20180815_01_T1_B10.TIF"
+  },
+  {
+    "name": "colorado-colorado-springs",
+    "image": "good0_B10.TIF"
+  },
+  {
+    "name": "colorado-denver",
+    "image": "033-032-2018-06-04_B10.TIF"
+  },
+  {
+    "name": "district-of-columbia-washington",
+    "image": "015-033-2018-07-08_B10.TIF"
+  },
+  {
+    "name": "florida-jacksonville",
+    "image": "good0_B10.TIF"
+  },
+  {
+    "name": "florida-orlando",
+    "image": "good0_B10.TIF"
+  },
+  {
+    "name": "florida-st.-petersburg",
+    "image": "LC08_L1TP_017041_20140828_20170303_01_T1_B10.TIF"
+  },
+  {
+    "name": "florida-tampa",
+    "image": "017-040-2014-08-28_B10.TIF "
+  },
+  {
+    "name": "georgia-atlanta",
+    "image": "019-037-2016-07-14_B10.TIF"
+  },
+  {
+    "name": "idaho-boise",
+    "image": "041-030-2018-06-12_B10.TIF"
+  },
+  {
+    "name": "illinois-chicago",
+    "image": "023-031-2014-07-21_B10.TIF"
+  },
+  {
+    "name": "indiana-fort-wayne",
+    "image": "021-031-2014-06-05_B10.TIF"
+  },
+  {
+    "name": "indiana-indianapolis",
+    "image": "good1_B10.TIF"
+  },
+  {
+    "name": "kansas-wichita",
+    "image": "028-034-2018-07-19_B10.TIF"
+  },
+  {
+    "name": "kentucky-lexington",
+    "image": "020-033-2017-08-09_B10.TIF"
+  },
+  {
+    "name": "kentucky-louisville",
+    "image": "021-033-2016-08-29_B10.TIF"
+  },
+  {
+    "name": "louisiana-baton-rouge",
+    "image": "023-039-2015-08-25_B10.TIF"
+  },
+  {
+    "name": "louisiana-new-orleans",
+    "image": "good0_B10.TIF"
+  },
+  {
+    "name": "maryland-baltimore",
+    "image": "015-033-2018-07-08_B10.TIF"
+  },
+  {
+    "name": "massachusetts-boston",
+    "image": "012-031-2018-07-19_B10.TIF"
+  },
+  {
+    "name": "michigan-detroit",
+    "image": "020-031-2018-07-11_B10.TIF"
+  },
+  {
+    "name": "minnesota-minneapolis",
+    "image": "027-029-2018-08-13_B10.TIF"
+  },
+  {
+    "name": "minnesota-st.-paul",
+    "image": "027-029-2018-08-13_B10.TIF"
+  },
+  {
+    "name": "missouri-kansas",
+    "image": "026-033-2018-06-03_B10.TIF"
+  },
+  {
+    "name": "missouri-st.-louis",
+    "image": "024-033-2018-06-05_B10.TIF"
+  },
+  {
+    "name": "nebraska-lincoln",
+    "image": "028-032-2018-07-19_B10.TIF"
+  },
+  {
+    "name": "nebraska-omaha",
+    "image": "028-031-2018-07-03_B10.TIF"
+  },
+  {
+    "name": "nevada-henderson",
+    "image": "good0_B10.TIF"
+  },
+  {
+    "name": "nevada-las-vegas",
+    "image": "039-035-2018-06-30_B10.TIF"
+  },
+  {
+    "name": "nevada-north-las-vegas",
+    "image": "039-035-2018-06-30_B10.TIF"
+  },
+  {
+    "name": "nevada-reno",
+    "image": "LC08_L1TP_043032_20180829_20180911_01_T1_B10.TIF"
+  },
+  {
+    "name": "new-jersey-jersey-city",
+    "image": "014-032-2017-07-30_B10.TIF"
+  },
+  {
+    "name": "new-jersey-newark",
+    "image": "014-032-2017-07-30_B10.TIF"
+  },
+  {
+    "name": "new-mexico-albuquerque",
+    "image": "034-036-2018-06-27_B10.TIF"
+  },
+  {
+    "name": "new-york-buffalo",
+    "image": "017-030-2016-06-14_B10.TIF"
+  },
+  {
+    "name": "new-york-new-york",
+    "image": "014-032-2017-07-30_B10.TIF"
+  },
+  {
+    "name": "north-carolina-charlotte",
+    "image": "017-036-2018-06-04_B10.TIF"
+  },
+  {
+    "name": "north-carolina-durham",
+    "image": "LC08_L1TP_016035_20170626_20170714_01_T1_B10.TIF"
+  },
+  {
+    "name": "north-carolina-greensboro",
+    "image": "017-035-2018-06-04_B10.TIF"
+  },
+  {
+    "name": "north-carolina-raleigh",
+    "image": "016-035-2015-06-21_B10.TIF"
+  },
+  {
+    "name": "north-carolina-winston-salem",
+    "image": "017-035-2018-06-04_B10.TIF"
+  },
+  {
+    "name": "ohio-cincinnati",
+    "image": "020-033-2018-06-09_B10.TIF"
+  },
+  {
+    "name": "ohio-cleveland",
+    "image": "019-031-2014-06-07_B10.TIF"
+  },
+  {
+    "name": "ohio-columbus",
+    "image": "019-032-2014-08-10_B10.TIF"
+  },
+  {
+    "name": "ohio-toledo",
+    "image": "020-031-2018-07-11_B10.TIF"
+  },
+  {
+    "name": "oklahoma-oklahoma",
+    "image": "028-035-2018-07-19_B10.TIF"
+  },
+  {
+    "name": "oklahoma-tulsa",
+    "image": "good0_B10.TIF"
+  },
+  {
+    "name": "oregon-portland",
+    "image": "046-028-2018-08-18_B10.TIF"
+  },
+  {
+    "name": "pennsylvania-philadelphia",
+    "image": "014-032-2017-07-30_B10.TIF"
+  },
+  {
+    "name": "pennsylvania-pittsburgh",
+    "image": "017-032-2017-08-20_B10.TIF"
+  },
+  {
+    "name": "tennessee-memphis",
+    "image": "023-036-2017-06-27_B10.TIF"
+  },
+  {
+    "name": "tennessee-nashville",
+    "image": "021-035-2016-06-10_B10.TIF"
+  },
+  {
+    "name": "texas-arlington",
+    "image": "027-037-2016-08-07_B10.TIF"
+  },
+  {
+    "name": "texas-austin",
+    "image": "LC08_L1TP_027039_20160722_20170221_01_T1_B10.TIF"
+  },
+  {
+    "name": "texas-corpus-christi",
+    "image": "026-041-2018-08-22_B10.TIF"
+  },
+  {
+    "name": "texas-dallas",
+    "image": "027-037-2016-08-07_B10.TIF"
+  },
+  {
+    "name": "texas-el-paso",
+    "image": "033-038-2018-07-22_B10.TIF"
+  },
+  {
+    "name": "texas-fort-worth",
+    "image": "027-037-2016-08-07_B10.TIF"
+  },
+  {
+    "name": "texas-garland",
+    "image": "027-037-2016-08-07_B10.TIF"
+  },
+  {
+    "name": "texas-houston",
+    "image": "good0_B10.TIF"
+  },
+  {
+    "name": "texas-irving",
+    "image": "027-037-2016-08-07_B10.TIF"
+  },
+  {
+    "name": "texas-laredo",
+    "image": "028-041-2018-07-19_B10.TIF"
+  },
+  {
+    "name": "texas-lubbock",
+    "image": "030-037-2018-06-15_B10.TIF"
+  },
+  {
+    "name": "texas-plano",
+    "image": "027-037-2016-08-07_B10.TIF"
+  },
+  {
+    "name": "texas-san-antonio",
+    "image": "027-040-2014-07-01_B10.TIF"
+  },
+  {
+    "name": "virginia-chesapeake",
+    "image": "good1_B10.TIF"
+  },
+  {
+    "name": "virginia-norfolk",
+    "image": "LC08_L1TP_014034_20160609_20180130_01_T1_B10.TIF"
+  },
+  {
+    "name": "virginia-richmond",
+    "image": "015-034-2018-07-08_B10.TIF"
+  },
+  {
+    "name": "virginia-virginia-beach",
+    "image": "good1_B10.TIF"
+  },
+  {
+    "name": "washington-seattle",
+    "image": "046-027-2018-07-17_B10.TIF"
+  },
+  {
+    "name": "washington-spokane",
+    "image": "043-027-2018-08-13_B10.TIF"
+  },
+  {
+    "name": "wisconsin-madison",
+    "image": "024-030-2018-07-07_B10.TIF"
+  },
+  {
+    "name": "wisconsin-milwaukee",
+    "image": "good0_B10.TIF"
+  }
+]

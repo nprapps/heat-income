@@ -1,0 +1,9 @@
+bin/*
+include/*
+lib/*
+.Python
+.DS_Store
+pip-selfcheck.json
+data/output/images/*
+good-images/*
+water/*

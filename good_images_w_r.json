@@ -1,0 +1,584 @@
+[
+  {
+    "name": "alaska-anchorage",
+    "image": "good1_B10.TIF",
+    "r-income": "-0.6340464908247523",
+    "r-nonwhite": "0.7567864642370176"
+  },
+  {
+    "name": "arizona-chandler",
+    "image": "good0_B10.TIF",
+    "r-income": "-0.48903793238278676",
+    "r-nonwhite": "-0.12066786679802606"
+  },
+  {
+    "name": "arizona-gilbert",
+    "image": "good0_B10.TIF",
+    "r-income": "-0.34768496331239",
+    "r-nonwhite": "0.18332978804303657"
+  },
+  {
+    "name": "arizona-glendale",
+    "image": "good0_B10.TIF",
+    "r-income": "0.575459197867316",
+    "r-nonwhite": "-0.986828367059644"
+  },
+  {
+    "name": "arizona-mesa",
+    "image": "036-037-2018-08-28_B10.TIF",
+    "r-income": "-0.34482947444477696",
+    "r-nonwhite": "0.4493166656282502"
+  },
+  {
+    "name": "arizona-phoenix",
+    "image": "037-037-2018-07-02_B10.TIF",
+    "r-income": "-0.4774556969625612",
+    "r-nonwhite": "0.3419650345149394"
+  },
+  {
+    "name": "arizona-scottsdale",
+    "image": "037-037-2018-07-02_B10.TIF",
+    "r-income": "-0.37889264306010695",
+    "r-nonwhite": "0.246537409587746"
+  },
+  {
+    "name": "arizona-tucson",
+    "image": "036-038-2018-06-25_B10.TIF",
+    "r-income": "-0.16809774638571456",
+    "r-nonwhite": "0.45813617127912254"
+  },
+  {
+    "name": "california-anaheim",
+    "image": "041-036-2018-08-31_B10.TIF",
+    "r-income": "-0.4966130603337324",
+    "r-nonwhite": "0.13177299260077235"
+  },
+  {
+    "name": "california-bakersfield",
+    "image": "042-035-2018-08-06_B10.TIF",
+    "r-income": "-0.5204815505911408",
+    "r-nonwhite": "0.13834146998018754"
+  },
+  {
+    "name": "california-chula-vista",
+    "image": "040-037-2018-07-23_B10.TIF",
+    "r-income": "0.18939932933310066",
+    "r-nonwhite": "-0.08828059290885835"
+  },
+  {
+    "name": "california-fremont",
+    "image": "good0_B10.TIF",
+    "r-income": "-0.5503373129186183",
+    "r-nonwhite": "-0.44522373637521173"
+  },
+  {
+    "name": "california-fresno",
+    "image": "042-035-2018-08-22_B10.TIF",
+    "r-income": "-0.4823047761509653",
+    "r-nonwhite": "0.5312028753481822"
+  },
+  {
+    "name": "california-irvine",
+    "image": "good0_B10.TIF",
+    "r-income": "0.034593211002209474",
+    "r-nonwhite": "0.006197721650072823"
+  },
+  {
+    "name": "california-long-beach",
+    "image": "041-036-2018-08-31_B10.TIF",
+    "r-income": "-0.4202865108707127",
+    "r-nonwhite": "0.6285574365183091"
+  },
+  {
+    "name": "california-los-angeles",
+    "image": "041-036-2018-08-31_B10.TIF",
+    "r-income": "-0.6105587997897126",
+    "r-nonwhite": "0.37668293873198244"
+  },
+  {
+    "name": "california-oakland",
+    "image": "good0_B10.TIF",
+    "r-income": "-0.7661329894503724",
+    "r-nonwhite": "0.6564334340136053"
+  },
+  {
+    "name": "california-riverside",
+    "image": "good1_B10.TIF",
+    "r-income": "-0.5421704588510876",
+    "r-nonwhite": "0.5629615680618825"
+  },
+  {
+    "name": "california-sacramento",
+    "image": "044-033-2018-08-04_B10.TIF",
+    "r-income": "-0.3876936274508421",
+    "r-nonwhite": "0.39552722330107953"
+  },
+  {
+    "name": "california-san-diego",
+    "image": "040-037-2018-07-23_B10.TIF",
+    "r-income": "-0.3325100175356248",
+    "r-nonwhite": "0.42933050611135537"
+  },
+  {
+    "name": "california-san-francisco",
+    "image": "good0_B10.TIF",
+    "r-income": "0.0023610667391075675",
+    "r-nonwhite": "-0.15964753271431978"
+  },
+  {
+    "name": "california-san-jose",
+    "image": "good0_B10.TIF",
+    "r-income": "-0.26094494135947416",
+    "r-nonwhite": "0.1797120831989415"
+  },
+  {
+    "name": "california-santa-ana",
+    "image": "041-036-2018-08-31_B10.TIF",
+    "r-income": "-0.3082064945260395",
+    "r-nonwhite": "0.2447079379034399"
+  },
+  {
+    "name": "california-stockton",
+    "image": "good1_B10.TIF",
+    "r-income": "0.052843144840648004",
+    "r-nonwhite": "-0.03550429413683136"
+  },
+  {
+    "name": "colorado-aurora",
+    "image": "LC08_L1TP_033032_20180807_20180815_01_T1_B10.TIF",
+    "r-income": "-0.5096764251108558",
+    "r-nonwhite": "0.6179651838104065"
+  },
+  {
+    "name": "colorado-colorado-springs",
+    "image": "good0_B10.TIF",
+    "r-income": "-0.48197679728120646",
+    "r-nonwhite": "0.539747054870909"
+  },
+  {
+    "name": "colorado-denver",
+    "image": "033-032-2018-06-04_B10.TIF",
+    "r-income": "-0.3963297146034131",
+    "r-nonwhite": "0.4101750342933729"
+  },
+  {
+    "name": "district-of-columbia-washington",
+    "image": "015-033-2018-07-08_B10.TIF",
+    "r-income": "-0.38860068244855966",
+    "r-nonwhite": "0.3190976117335102"
+  },
+  {
+    "name": "florida-jacksonville",
+    "image": "good0_B10.TIF",
+    "r-income": "-0.4644040133293749",
+    "r-nonwhite": "0.18767717649149263"
+  },
+  {
+    "name": "florida-orlando",
+    "image": "good0_B10.TIF",
+    "r-income": "-0.27084954339641765",
+    "r-nonwhite": "0.1807762597016599"
+  },
+  {
+    "name": "florida-st.-petersburg",
+    "image": "LC08_L1TP_017041_20140828_20170303_01_T1_B10.TIF",
+    "r-income": "-0.44985342896602104",
+    "r-nonwhite": "0.007556175539070076"
+  },
+  {
+    "name": "florida-tampa",
+    "image": "017-040-2014-08-28_B10.TIF ",
+    "r-income": "-0.17747646578019072",
+    "r-nonwhite": "0.21869607243510192"
+  },
+  {
+    "name": "georgia-atlanta",
+    "image": "019-037-2016-07-14_B10.TIF",
+    "r-income": "-0.23249298373256522",
+    "r-nonwhite": "-0.04365448910857252"
+  },
+  {
+    "name": "idaho-boise",
+    "image": "041-030-2018-06-12_B10.TIF",
+    "r-income": "0.22246506344386946",
+    "r-nonwhite": "0.10895479731357274"
+  },
+  {
+    "name": "illinois-chicago",
+    "image": "023-031-2014-07-21_B10.TIF",
+    "r-income": "0.022568725395930966",
+    "r-nonwhite": "-0.09803172620019655"
+  },
+  {
+    "name": "indiana-fort-wayne",
+    "image": "021-031-2014-06-05_B10.TIF",
+    "r-income": "-0.25935349376754235",
+    "r-nonwhite": "0.16631421733702492"
+  },
+  {
+    "name": "indiana-indianapolis",
+    "image": "good1_B10.TIF",
+    "r-income": "-0.44542031097749274",
+    "r-nonwhite": "0.15449961811451504"
+  },
+  {
+    "name": "kansas-wichita",
+    "image": "028-034-2018-07-19_B10.TIF",
+    "r-income": "-0.26457014562024045",
+    "r-nonwhite": "0.3929944566791409"
+  },
+  {
+    "name": "kentucky-lexington",
+    "image": "020-033-2017-08-09_B10.TIF",
+    "r-income": "-0.373001821609266",
+    "r-nonwhite": "0.3269449057266343"
+  },
+  {
+    "name": "kentucky-louisville",
+    "image": "021-033-2016-08-29_B10.TIF",
+    "r-income": "-0.4757842420976578",
+    "r-nonwhite": "0.4393674602340302"
+  },
+  {
+    "name": "louisiana-baton-rouge",
+    "image": "023-039-2015-08-25_B10.TIF",
+    "r-income": "-0.03474991689289741",
+    "r-nonwhite": "-0.09862178588459439"
+  },
+  {
+    "name": "louisiana-new-orleans",
+    "image": "good0_B10.TIF",
+    "r-income": "-0.32510009529421086",
+    "r-nonwhite": "-0.05228832476134734"
+  },
+  {
+    "name": "maryland-baltimore",
+    "image": "015-033-2018-07-08_B10.TIF",
+    "r-income": "-0.22449851383350522",
+    "r-nonwhite": "0.04378292878308096"
+  },
+  {
+    "name": "massachusetts-boston",
+    "image": "012-031-2018-07-19_B10.TIF",
+    "r-income": "-0.18342649067508462",
+    "r-nonwhite": "-0.011586810822588375"
+  },
+  {
+    "name": "michigan-detroit",
+    "image": "020-031-2018-07-11_B10.TIF",
+    "r-income": "-0.09753234264684271",
+    "r-nonwhite": "-0.13016471819134243"
+  },
+  {
+    "name": "minnesota-minneapolis",
+    "image": "027-029-2018-08-13_B10.TIF",
+    "r-income": "-0.572700591957395",
+    "r-nonwhite": "0.33516306120381645"
+  },
+  {
+    "name": "minnesota-st.-paul",
+    "image": "027-029-2018-08-13_B10.TIF",
+    "r-income": "-0.4600323246146344",
+    "r-nonwhite": "0.3251459438934609"
+  },
+  {
+    "name": "missouri-kansas",
+    "image": "026-033-2018-06-03_B10.TIF",
+    "r-income": "-0.3903433998842471",
+    "r-nonwhite": "0.2910639818812967"
+  },
+  {
+    "name": "missouri-st.-louis",
+    "image": "024-033-2018-06-05_B10.TIF",
+    "r-income": "-0.03384437019261898",
+    "r-nonwhite": "-0.1296927656507003"
+  },
+  {
+    "name": "nebraska-lincoln",
+    "image": "028-032-2018-07-19_B10.TIF",
+    "r-income": "-0.5356659400385811",
+    "r-nonwhite": "0.44573846281788265"
+  },
+  {
+    "name": "nebraska-omaha",
+    "image": "028-031-2018-07-03_B10.TIF",
+    "r-income": "-0.22995139946535165",
+    "r-nonwhite": "-0.06798541563978473"
+  },
+  {
+    "name": "nevada-henderson",
+    "image": "good0_B10.TIF",
+    "r-income": "-0.5586049321277872",
+    "r-nonwhite": "0.0575004090920026"
+  },
+  {
+    "name": "nevada-las-vegas",
+    "image": "039-035-2018-06-30_B10.TIF",
+    "r-income": "-0.6172554819990316",
+    "r-nonwhite": "0.6138656679757724"
+  },
+  {
+    "name": "nevada-north-las-vegas",
+    "image": "039-035-2018-06-30_B10.TIF",
+    "r-income": "-0.6628580699106312",
+    "r-nonwhite": "0.05288953872688618"
+  },
+  {
+    "name": "nevada-reno",
+    "image": "LC08_L1TP_043032_20180829_20180911_01_T1_B10.TIF",
+    "r-income": "-0.4659456898067775",
+    "r-nonwhite": "0.24812156510988254"
+  },
+  {
+    "name": "new-jersey-jersey-city",
+    "image": "014-032-2017-07-30_B10.TIF",
+    "r-income": "-0.548239098452706",
+    "r-nonwhite": "0.4930334208629914"
+  },
+  {
+    "name": "new-jersey-newark",
+    "image": "014-032-2017-07-30_B10.TIF",
+    "r-income": "0.0987570609239117",
+    "r-nonwhite": "-0.25579295236810745"
+  },
+  {
+    "name": "new-mexico-albuquerque",
+    "image": "034-036-2018-06-27_B10.TIF",
+    "r-income": "-0.10606158178671204",
+    "r-nonwhite": "0.26181467476450865"
+  },
+  {
+    "name": "new-york-buffalo",
+    "image": "017-030-2016-06-14_B10.TIF",
+    "r-income": "-0.03615231062734853",
+    "r-nonwhite": "0.09085786465530668"
+  },
+  {
+    "name": "new-york-new-york",
+    "image": "014-032-2017-07-30_B10.TIF",
+    "r-income": "-0.05652948954228585",
+    "r-nonwhite": "0.14300544552105285"
+  },
+  {
+    "name": "north-carolina-charlotte",
+    "image": "017-036-2018-06-04_B10.TIF",
+    "r-income": "-0.06599607172289985",
+    "r-nonwhite": "-0.03654688631997346"
+  },
+  {
+    "name": "north-carolina-durham",
+    "image": "LC08_L1TP_016035_20170626_20170714_01_T1_B10.TIF",
+    "r-income": "-0.4109424021876755",
+    "r-nonwhite": "0.36010240250423087"
+  },
+  {
+    "name": "north-carolina-greensboro",
+    "image": "017-035-2018-06-04_B10.TIF",
+    "r-income": "-0.09701598174049483",
+    "r-nonwhite": "0.13027840290857334"
+  },
+  {
+    "name": "north-carolina-raleigh",
+    "image": "016-035-2015-06-21_B10.TIF",
+    "r-income": "-0.2768694404559261",
+    "r-nonwhite": "0.10933154846118494"
+  },
+  {
+    "name": "north-carolina-winston-salem",
+    "image": "017-035-2018-06-04_B10.TIF",
+    "r-income": "-0.3183729073487005",
+    "r-nonwhite": "0.34458380135518135"
+  },
+  {
+    "name": "ohio-cincinnati",
+    "image": "020-033-2018-06-09_B10.TIF",
+    "r-income": "-0.2594447316066824",
+    "r-nonwhite": "0.13673878871515002"
+  },
+  {
+    "name": "ohio-cleveland",
+    "image": "019-031-2014-06-07_B10.TIF",
+    "r-income": "-0.038771931824227515",
+    "r-nonwhite": "-0.23019930512167852"
+  },
+  {
+    "name": "ohio-columbus",
+    "image": "019-032-2014-08-10_B10.TIF",
+    "r-income": "-0.30533351902979705",
+    "r-nonwhite": "0.16463300240881762"
+  },
+  {
+    "name": "ohio-toledo",
+    "image": "020-031-2018-07-11_B10.TIF",
+    "r-income": "-0.5599835391633654",
+    "r-nonwhite": "0.3618437255844669"
+  },
+  {
+    "name": "oklahoma-oklahoma",
+    "image": "028-035-2018-07-19_B10.TIF",
+    "r-income": "-0.18956232039179188",
+    "r-nonwhite": "-0.007341543312768474"
+  },
+  {
+    "name": "oklahoma-tulsa",
+    "image": "good0_B10.TIF",
+    "r-income": "-0.1963290543212483",
+    "r-nonwhite": "0.034047339514071184"
+  },
+  {
+    "name": "oregon-portland",
+    "image": "046-028-2018-08-18_B10.TIF",
+    "r-income": "-0.5977140426665332",
+    "r-nonwhite": "0.41642318998284084"
+  },
+  {
+    "name": "pennsylvania-philadelphia",
+    "image": "014-032-2017-07-30_B10.TIF",
+    "r-income": "-0.5286418658184489",
+    "r-nonwhite": "0.35200929558565386"
+  },
+  {
+    "name": "pennsylvania-pittsburgh",
+    "image": "017-032-2017-08-20_B10.TIF",
+    "r-income": "6.35478810685266e-05",
+    "r-nonwhite": "-0.09406206606427907"
+  },
+  {
+    "name": "tennessee-memphis",
+    "image": "023-036-2017-06-27_B10.TIF",
+    "r-income": "-0.2755896898507342",
+    "r-nonwhite": "0.12072394470955687"
+  },
+  {
+    "name": "tennessee-nashville",
+    "image": "021-035-2016-06-10_B10.TIF",
+    "r-income": "-0.36505821427543206",
+    "r-nonwhite": "0.20571995498122359"
+  },
+  {
+    "name": "texas-arlington",
+    "image": "027-037-2016-08-07_B10.TIF",
+    "r-income": "-0.23222876486118021",
+    "r-nonwhite": "0.25874689652845634"
+  },
+  {
+    "name": "texas-austin",
+    "image": "LC08_L1TP_027039_20160722_20170221_01_T1_B10.TIF",
+    "r-income": "-0.40056069487176227",
+    "r-nonwhite": "0.16894280054819347"
+  },
+  {
+    "name": "texas-corpus-christi",
+    "image": "026-041-2018-08-22_B10.TIF",
+    "r-income": "0.07695868947869498",
+    "r-nonwhite": "-0.040547140848097955"
+  },
+  {
+    "name": "texas-dallas",
+    "image": "027-037-2016-08-07_B10.TIF",
+    "r-income": "-0.2831214584395675",
+    "r-nonwhite": "0.1640755220613098"
+  },
+  {
+    "name": "texas-el-paso",
+    "image": "033-038-2018-07-22_B10.TIF",
+    "r-income": "-0.25123515453021417",
+    "r-nonwhite": "-0.07396299607835488"
+  },
+  {
+    "name": "texas-fort-worth",
+    "image": "027-037-2016-08-07_B10.TIF",
+    "r-income": "-0.06426827991281517",
+    "r-nonwhite": "0.05916810438658433"
+  },
+  {
+    "name": "texas-garland",
+    "image": "027-037-2016-08-07_B10.TIF",
+    "r-income": "-0.4907894898783757",
+    "r-nonwhite": "0.3236745969622438"
+  },
+  {
+    "name": "texas-houston",
+    "image": "good0_B10.TIF",
+    "r-income": "-0.010945618745244903",
+    "r-nonwhite": "-0.020348664271878775"
+  },
+  {
+    "name": "texas-irving",
+    "image": "027-037-2016-08-07_B10.TIF",
+    "r-income": "-0.13733516881287505",
+    "r-nonwhite": "0.1791492785696524"
+  },
+  {
+    "name": "texas-laredo",
+    "image": "028-041-2018-07-19_B10.TIF",
+    "r-income": "-0.5188448785073322",
+    "r-nonwhite": "0.03260792887223977"
+  },
+  {
+    "name": "texas-lubbock",
+    "image": "030-037-2018-06-15_B10.TIF",
+    "r-income": "-0.16907720842813162",
+    "r-nonwhite": "-0.15602683331901293"
+  },
+  {
+    "name": "texas-plano",
+    "image": "027-037-2016-08-07_B10.TIF",
+    "r-income": "-0.037287091632444584",
+    "r-nonwhite": "-0.1240584362255553"
+  },
+  {
+    "name": "texas-san-antonio",
+    "image": "027-040-2014-07-01_B10.TIF",
+    "r-income": "-0.39751887647835576",
+    "r-nonwhite": "-0.05271285511045945"
+  },
+  {
+    "name": "virginia-chesapeake",
+    "image": "good1_B10.TIF",
+    "r-income": "-0.25062197063481667",
+    "r-nonwhite": "0.14223982366748736"
+  },
+  {
+    "name": "virginia-norfolk",
+    "image": "LC08_L1TP_014034_20160609_20180130_01_T1_B10.TIF",
+    "r-income": "-0.2898966301518082",
+    "r-nonwhite": "0.355818832517771"
+  },
+  {
+    "name": "virginia-richmond",
+    "image": "015-034-2018-07-08_B10.TIF",
+    "r-income": "-0.32056420465058566",
+    "r-nonwhite": "0.009530168838699988"
+  },
+  {
+    "name": "virginia-virginia-beach",
+    "image": "good1_B10.TIF",
+    "r-income": "-0.484207756275584",
+    "r-nonwhite": "0.4992676337943055"
+  },
+  {
+    "name": "washington-seattle",
+    "image": "046-027-2018-07-17_B10.TIF",
+    "r-income": "-0.44611904554350007",
+    "r-nonwhite": "0.25984266710301157"
+  },
+  {
+    "name": "washington-spokane",
+    "image": "043-027-2018-08-13_B10.TIF",
+    "r-income": "-0.31925533470745726",
+    "r-nonwhite": "0.33521582446073045"
+  },
+  {
+    "name": "wisconsin-madison",
+    "image": "024-030-2018-07-07_B10.TIF",
+    "r-income": "-0.4435958217954733",
+    "r-nonwhite": "-0.05605989939280891"
+  },
+  {
+    "name": "wisconsin-milwaukee",
+    "image": "good0_B10.TIF",
+    "r-income": "-0.41603040328381735",
+    "r-nonwhite": "0.28521740530395173"
+  }
+]
