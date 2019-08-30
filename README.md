@@ -11,7 +11,10 @@ To determine which cities to highlight in the story, NPR chose the 10 cities wit
 
 ## Instructions To Reproduce Analysis
 
+- `virtualenv heat-income`
+- `cd heat-income`
 - `pip install -r requirements.txt`
+- Set your Census API key as an environment variable in `bin/activate`
 - `mkdir water`
 - Download the [Natural Earth Ocean .shp file](https://www.naturalearthdata.com/downloads/10m-physical-vectors/) and [ArcGIS USA Detailed Water Bodies .shp files](https://www.arcgis.com/home/item.html?id=84e780692f644e2d93cefc80ae1eba3a) and place the contents of both into the `water directory you created`
 - Download the manual images (explain!)
