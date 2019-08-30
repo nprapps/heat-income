@@ -1,6 +1,6 @@
 . bin/activate
 
-# python download_data.py
+python download_data.py
 
 sh parallel_process.sh
 
