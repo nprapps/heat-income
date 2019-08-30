@@ -23,22 +23,31 @@ def main():
 
 
 
-	for city in cities[76:77]:
+	for city in cities:
 		city['state_fips'] = get_fips(city['state'])
 		city['county'] = get_county(city)
 		print(city)
 
+		# FOUR FUNCTIONS FOR EACH CITY TO GET DATA
+		# ========================================
 
+		# Downloads shapefile of every census tract in the state
 		try:
 			download_census_shp(city)
 		except Exception as e: print('download shp error ' + str(e))
+		
+		# Downloads income/race/population data for every Census tract in the state
 		try:
 			download_census_data(city)
 		except Exception as e: print('download census data error ' + str(e))
+		
+		# Downloads raster satellite images for each city, and OSM city boundaries if necessary
 		try:
 			# austin (TX) and st petersburg (FL) not loading - be sure to grab by hand
 			download_tiles_plus_geojson(city)
 		except Exception as e: print('download tile error ' + str(e))
+		
+		# Adds the Census data to the Census shapefile
 		try:
 			merge_census_shp(city)
 		except Exception as e: print('merge shp file error ' + str(e))
@@ -68,7 +77,7 @@ def download_census_data(city):
 	state_fips = city['state_fips']
 
 
-	# swap in your own census API key here
+	# swap in your own census API key here or use environment variable
 	api_key =  os.getenv('CENSUS_API_KEY')
 
 	# name, geoid, median income by residence
@@ -84,7 +93,6 @@ def download_census_data(city):
 
 	resp_text_obj = json.loads(resp.text)
 
-	# cleanup var names
 	for ind, col_head in enumerate(resp_text_obj[0]):
 		if col_head in query_keys:
 			resp_text_obj[0][ind] = query_keys[col_head].lower().replace(" ", "_")
@@ -379,8 +387,6 @@ def clean_path_name(text_input):
 
 
 def get_center_coordinate(coord_list):
-
-	# print(coord_list)
 
 	bbox = {}
 
