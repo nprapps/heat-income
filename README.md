@@ -10,7 +10,9 @@ The satellite data measures temperature at a surface, like the ground or a rooft
 
 ## Data files
 
-Completed data files for each city are saved as .geojson files in `data/output/analysis_out/final/
+Completed data files for each city are saved as .geojson files in `data/output/analysis_out/final/`.
+
+Correlations for each city are listed in `good_images_w_r.json`.
 
 ## Simplified files
 
