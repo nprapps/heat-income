@@ -24,7 +24,7 @@ for ROW in $(cat data/cities.json | jq -r '.[] | @base64')
 
 # # RUN PARALLEL TO PERFORM GEOANALYSIS/R ANALYSIS ON EACH CITY
 
-cat list_of_cities.txt | parallel -u --verbose -j 4 --colsep ' ' sh single_process.sh {}
+# cat list_of_cities.txt | parallel -u --verbose -j 4 --colsep ' ' sh single_process.sh {}
 
 
 

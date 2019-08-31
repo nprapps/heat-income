@@ -4,10 +4,10 @@ CITY=$1
 
 #data references
 KEY="$STATE-$CITY"
+echo $KEY
 RASTER=$(cat good_images.json | jq -r ".[] | select(.name==\"$KEY\") | .\"image\"")
 
 STATE_TRACTS="./data/output/$STATE/*tract_merged.shp"
-# NEED TO CHANGE OUTPUT FROM DOWNLOAD TO GET TIGER AND CORRECT OSM INTO HERE 
 CITY_BOUNDARY="./data/boundaries-census/$CITY.json"
 CITY_RASTER="./data/output/images/$STATE-$CITY/$RASTER"
 OCEAN="./water/ne_10m_ocean.shp"

@@ -20,8 +20,8 @@
   {
     "name": "arizona-glendale",
     "image": "good0_B10.TIF",
-    "r-income": "0.575459197867316",
-    "r-nonwhite": "-0.986828367059644"
+    "r-income": "-0.3689305388851388",
+    "r-nonwhite": "0.20475229648151866"
   },
   {
     "name": "arizona-mesa",
@@ -139,9 +139,9 @@
   },
   {
     "name": "california-stockton",
-    "image": "good1_B10.TIF",
-    "r-income": "0.052843144840648004",
-    "r-nonwhite": "-0.03550429413683136"
+    "image": "good0_B10.TIF",
+    "r-income": "-0.4177644185761358",
+    "r-nonwhite": "0.49326227740053946"
   },
   {
     "name": "colorado-aurora",
@@ -187,7 +187,7 @@
   },
   {
     "name": "florida-tampa",
-    "image": "017-040-2014-08-28_B10.TIF ",
+    "image": "LC08_L1TP_017041_20140828_20170303_01_T1_B10.TIF",
     "r-income": "-0.17747646578019072",
     "r-nonwhite": "0.21869607243510192"
   },
@@ -229,9 +229,9 @@
   },
   {
     "name": "kentucky-lexington",
-    "image": "020-033-2017-08-09_B10.TIF",
-    "r-income": "-0.373001821609266",
-    "r-nonwhite": "0.3269449057266343"
+    "image": "good0_B10.TIF",
+    "r-income": "-0.6117161785892589",
+    "r-nonwhite": "0.22997910590780304"
   },
   {
     "name": "kentucky-louisville",
@@ -325,9 +325,9 @@
   },
   {
     "name": "nevada-reno",
-    "image": "LC08_L1TP_043032_20180829_20180911_01_T1_B10.TIF",
-    "r-income": "-0.4659456898067775",
-    "r-nonwhite": "0.24812156510988254"
+    "image": "good0_B10.TIF",
+    "r-income": "-0.4043375272915294",
+    "r-nonwhite": "0.33986054097792795"
   },
   {
     "name": "new-jersey-jersey-city",
@@ -373,7 +373,7 @@
   },
   {
     "name": "north-carolina-greensboro",
-    "image": "017-035-2018-06-04_B10.TIF",
+    "image": "good0_B10.TIF",
     "r-income": "-0.09701598174049483",
     "r-nonwhite": "0.13027840290857334"
   },
@@ -535,9 +535,9 @@
   },
   {
     "name": "virginia-chesapeake",
-    "image": "good1_B10.TIF",
-    "r-income": "-0.25062197063481667",
-    "r-nonwhite": "0.14223982366748736"
+    "image": "good0_B10.TIF",
+    "r-income": "-0.5644626273953702",
+    "r-nonwhite": "0.405537971098466"
   },
   {
     "name": "virginia-norfolk",

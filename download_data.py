@@ -23,12 +23,13 @@ def main():
 
 
 
-	for city in cities:
+	# for city in cities:
+	for city in [x for x in cities if x['name'] in ["Glendale"]]:
 		city['state_fips'] = get_fips(city['state'])
 		city['county'] = get_county(city)
 		print(city)
 
-		# FOUR FUNCTIONS FOR EACH CITY TO GET DATA
+		# 4 FUNCTIONS FOR EACH CITY TO GET DATA
 		# ========================================
 
 		# Downloads shapefile of every census tract in the state
@@ -43,7 +44,7 @@ def main():
 		
 		# Downloads raster satellite images for each city, and OSM city boundaries if necessary
 		try:
-			# austin (TX) and st petersburg (FL) not loading - be sure to grab by hand
+			# austin (TX) and st petersburg/tampa (FL) not loading - be sure to grab by hand
 			download_tiles_plus_geojson(city)
 		except Exception as e: print('download tile error ' + str(e))
 		
@@ -141,7 +142,7 @@ def download_tiles_plus_geojson(city):
 	# if coordinates are aren't preapproved, download them from OSM
 
 	# THESE THREE ARE PULLING INCORRECTLY FROM TIGER
-	osm_boundaries = ["louisville", "washington", "glendale"]
+	osm_boundaries = ["louisville", "washington"]
 
 	##### get osm data if needed
 	if city['name'].lower() in osm_boundaries:
@@ -360,6 +361,7 @@ def get_geom(city):
 
 	resp = requests.get(domain + 'search.php?q='+ city['name'].replace(" ", "+") + "+" + city['state'].replace(" ", "+") +'&polygon_geojson=1')
 
+	print(resp.url)
 
 	soup = BeautifulSoup(resp.text, "html.parser")
 

@@ -93,7 +93,7 @@
   },
   {
     "name": "california-stockton",
-    "image": "good1_B10.TIF"
+    "image": "good0_B10.TIF"
   },
   {
     "name": "colorado-aurora",
@@ -125,7 +125,7 @@
   },
   {
     "name": "florida-tampa",
-    "image": "017-040-2014-08-28_B10.TIF "
+    "image": "LC08_L1TP_017041_20140828_20170303_01_T1_B10.TIF"
   },
   {
     "name": "georgia-atlanta",
@@ -153,7 +153,7 @@
   },
   {
     "name": "kentucky-lexington",
-    "image": "020-033-2017-08-09_B10.TIF"
+    "image": "good0_B10.TIF"
   },
   {
     "name": "kentucky-louisville",
@@ -217,7 +217,7 @@
   },
   {
     "name": "nevada-reno",
-    "image": "LC08_L1TP_043032_20180829_20180911_01_T1_B10.TIF"
+    "image": "good0_B10.TIF"
   },
   {
     "name": "new-jersey-jersey-city",
@@ -249,7 +249,7 @@
   },
   {
     "name": "north-carolina-greensboro",
-    "image": "017-035-2018-06-04_B10.TIF"
+    "image": "good0_B10.TIF"
   },
   {
     "name": "north-carolina-raleigh",
@@ -357,7 +357,7 @@
   },
   {
     "name": "virginia-chesapeake",
-    "image": "good1_B10.TIF"
+    "image": "good0_B10.TIF"
   },
   {
     "name": "virginia-norfolk",
