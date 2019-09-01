@@ -25,6 +25,7 @@ Also in the `final` directory is a directory called `simpl`. This has .geojson f
 
 - `virtualenv heat-income`
 - `cd heat-income`
+- `. bin/activate`
 - `pip install -r requirements.txt`
 - Set your Census API key as an environment variable in `bin/activate`
 - Download the manual images as GEOTIFFs (specified in `download_data.py`) from EarthExplorer
