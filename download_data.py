@@ -23,8 +23,7 @@ def main():
 
 
 
-	# for city in cities:
-	for city in [x for x in cities if x['name'] in ["Glendale"]]:
+	for city in cities:
 		city['state_fips'] = get_fips(city['state'])
 		city['county'] = get_county(city)
 		print(city)
