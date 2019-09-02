@@ -38,3 +38,4 @@ Also in the `final` directory is a directory called `simpl`. This has .geojson f
 - Only one day of data per city
 - Not every city is counted
 - Some cities split satellite scene paths/rows, so we took the image from the scene that contained most of the city. You'll need to filter out tracts without heat data in any data analysis/mapping you do.
+- For satellite images that are not defined manually, the script will grab recent images. As more scenes are captured by NASA, results may vary slightly and/or good_images may need to be redefined.
